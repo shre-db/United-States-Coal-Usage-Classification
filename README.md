@@ -71,3 +71,16 @@ Credits
   - James St. John - https://www.flickr.com/photos/jsjgeology/8512397381/in/album-72157632870063067/
   - Geos.berau - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=123014299
 - Online flowchart tool - https://app.diagrams.net/
+
+License
+-------
+
+This project is licensed under the [MIT License](LICENSE.txt) - see the [LICENSE.txt](LICENSE.txt) file for details.
+
+Contact
+-------
+
+  - **Name**: Shreyas
+  - **Email**: shreyasdb99@gmail.com
+  - **GitHub**: [shre-db](https://github.com/shre-db)
+  - **Instagram**: [shryzium](https://www.instagram.com/shryzium/)
