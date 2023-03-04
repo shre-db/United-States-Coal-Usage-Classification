@@ -36,6 +36,8 @@ Installation
 **Prerequisites**:
   - Anaconda Python Distribution
   - python 3.9.16
+  
+Note: The steps below for installing packages involve 'requirements.txt' file. This file contains only those packages that were necessary for deployment of the flask app and therefore doesn't include all the packages that were used for the development of the project. 
 
 1. **Install Conda**: If you do not have Conda installed on your system, you can download and install the appropriate version for your operating sytem from the official Conda Website (https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
 2. **Create an environment**: To avoid conflicts between packages, create a new environment. You can create one using the following command: `conda create -n ENVNAME python=3.9.16`. Replace `ENVNAME` with the name of your choice, for example: `coal-dep`, `coal-dev`.
