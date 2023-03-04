@@ -45,3 +45,29 @@ Note: The steps below for installing packages involve 'requirements.txt' file. T
 4. **Install packages**: You can now install the required packages in the environment using the either of the following commands:`conda install --yes --file requirements.txt` or `conda install --file requirements.txt`. The former automatically answers "yes" to all prompts during installation, while the latter requires user to manually confirm each installation prompt. If you're on a windows computer, you may have issues while running the above command because of gunicorn package. Since it is not needed for running an app locally, I recommend removing the 'gunicorn' package from requirements.txt file before running the command mentioned earlier in this step.
 5. **Deactivate the environment**: Once you are done working with the environment, you can deactivate using `conda deactivate` and then close the prompt using `exit`.
 That's it! You have now installed the packages using Conda.
+
+Usage
+-----
+
+You can access the deployed project by following the link 'https://coal-rank-prediction-91cs.onrender.com/'. Alternatively, after installation you can also run the project locally by following the steps below:
+1. Open Anaconda prompt.
+2. Navigate to the project folder.
+3. Run this command: `python main.py`.
+4. Copy the url (http://localhost:5000 or similar) generated in the prompt.
+5. Open a web browser and paste the url to access the web application.
+
+Contributing
+------------
+
+Thank you for your interest in this project! At this time we are not accepting contribution from external collaborators. If you have any feedback or suggestions, please feel free to create an issue or contact us directly.
+
+Credits
+-------
+
+- Data for this project was collected from the [U.S. Energy Information Administration (EIA)](https://www.eia.gov/) through their API.
+- Images used in this project were sourced from:
+  - Peabody Energy, Inc. - Provided by Peabody Energy, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=36846291
+  - James St. John - https://www.flickr.com/photos/47445767@N05/33554814475/, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=95239731
+  - James St. John - https://www.flickr.com/photos/jsjgeology/8512397381/in/album-72157632870063067/
+  - Geos.berau - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=123014299
+- Online flowchart tool - https://app.diagrams.net/
